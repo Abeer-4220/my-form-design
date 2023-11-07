@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(242, 251, 252);
+}
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+form {
+  width: 40rem;
+  margin: auto;
+  background-color: rgb(236, 247, 250);
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+section {
+  margin-bottom: 1rem;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+label {
+  display: block;
+  color: rgb(66, 76, 97);
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid rgb(152, 159, 184);
+  width: 100%;
+  display: block;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+#select-option {
+  color: rgb(156, 154, 154);
+}
+textarea {
+  resize: none;
+}
+input:focus,
+textarea:focus {
+  background-color: rgb(217, 227, 247);
+}
+.radio-buttons {
+  display: flex;
+}
+.radio-buttons input {
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.radio-buttons label {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+button {
+  font: inherit;
+  margin-top: 1rem;
+  border: 1px solid rgb(51, 67, 100);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+#btn {
+  text-align: right;
+}
+#reset {
+  background-color: transparent;
+  color: rgb(51, 67, 100);
+}
+#reset:hover {
+  background-color: rgb(208, 215, 230);
+}
+#submit {
+  background-color: rgb(51, 67, 100);
+  color: white;
+}
+#submit:hover {
+  background-color: rgb(69, 89, 129);
+  border-color: rgb(69, 89, 129);
+}
+@media (max-width: 48rem) {
+  form {
+    width: 30rem;
+  }
+}
+@media (max-width: 38rem) {
+  form {
+    width: 20rem;
+  }
+}
+@media (max-width: 28rem) {
+  form {
+    width: 15rem;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 85rem) {
+  form {
+    width: 45rem;
+  }
+}
